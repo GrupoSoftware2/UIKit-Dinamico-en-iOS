@@ -12,6 +12,7 @@
 		FB32673B1E78BE59008CB74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3267391E78BE59008CB74B /* Main.storyboard */; };
 		FB32673D1E78BE59008CB74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB32673C1E78BE59008CB74B /* Assets.xcassets */; };
 		FB3267401E78BE59008CB74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB32673E1E78BE59008CB74B /* LaunchScreen.storyboard */; };
+		FB3267481E78C093008CB74B /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3267471E78C093008CB74B /* SegundoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FB32673C1E78BE59008CB74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB32673F1E78BE59008CB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB3267411E78BE59008CB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3267471E78C093008CB74B /* SegundoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FB32673C1E78BE59008CB74B /* Assets.xcassets */,
 				FB32673E1E78BE59008CB74B /* LaunchScreen.storyboard */,
 				FB3267411E78BE59008CB74B /* Info.plist */,
+				FB3267471E78C093008CB74B /* SegundoViewController.swift */,
 			);
 			path = "UIKit Dinamico en iOS";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				FB3267381E78BE59008CB74B /* ViewController.swift in Sources */,
 				FB3267361E78BE59008CB74B /* AppDelegate.swift in Sources */,
+				FB3267481E78C093008CB74B /* SegundoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
