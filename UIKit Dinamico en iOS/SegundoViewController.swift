@@ -106,6 +106,20 @@ class SegundoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+
+        let margen:CGFloat = 10
+        
+        vwCabecera.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 60)
+
+        lblTitulo.frame = vwCabecera.frame
+
+        segControl.frame = CGRect(x: margen, y: vwCabecera.frame.size.height + margen, width: self.view.frame.size.width - (margen*2) , height: 30)
+
+        btnAceptar.frame = CGRect(x: margen, y: self.view.frame.size.height - margen - 30, width: 120, height: 30)
+        
+        btnCancelar.frame = CGRect(x: self.view.frame.size.width - margen - 120 , y: btnAceptar.frame.origin.y  , width: 120, height: 30)
+    }
 
     /*
     // MARK: - Navigation
